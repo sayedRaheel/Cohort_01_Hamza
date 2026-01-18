@@ -1,0 +1,12 @@
+## Multi Printing
+
+##  Q1. Given two inputs that are stored in variables a and n, you need to print a, n times in a single line without space between them. Output must have a newline at the end.
+
+# eg 
+# Input: a = "Hello", n = 5
+# Output: HelloHelloHelloHelloHello
+# Explanation: a is printed n=5 times in a single line without space between them.
+
+a = input("Enter text you want to print multiple times ")
+n = int(input("Enter the number of times you want to print "))
+print(a*n)
